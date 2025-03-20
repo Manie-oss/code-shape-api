@@ -18,3 +18,4 @@ mongoose.connect(MONGODB_URL)
 .then(() => app.listen(PORT, () => console.log(`Server is running on the port ${PORT}`)))
 .catch((err) => console.log(err.message));
 
+export default app;
